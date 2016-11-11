@@ -1,0 +1,57 @@
+body {
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+  padding: 0;
+  background-color: #232123;
+  color: #9C9A99;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 500%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#concert {
+  width: 100%;
+  padding: 2%;
+  display: block;
+  margin: 0 auto;
+  background-color: #9E4402;
+}
+
+.bio {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 2%;
+  background-color: #232123;
+}
+
+.albumCover {
+  float: left;
+  width: 40%;
+  margin-left: 7%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  text-align: center;
+  background-color: #232123;
+}
+
+a:link { color: #02A53F; }
+a:visited { color: #C65502; }
+
+/* media queries */
+
+@media (max-width: 930px) {
+  .albumCover {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-bottom: 5%;
+  }
