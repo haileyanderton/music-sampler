@@ -20,11 +20,15 @@ $(document).ready(function() {
 
     $('.albumCover').click(function() {
 
-
     hideAll();
 
-  // switch statement
+    // audio won't play over eachother
 
+  $("audio").each(function() {
+    this.pause();
+    this.currentTime = 0;
+});
+  // switch statement
       switch ($(this).attr("id")) {
         case "loveCover":
           $('#loveInfo').show();

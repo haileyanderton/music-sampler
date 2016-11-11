@@ -18,11 +18,22 @@ p {
 }
 
 #concert {
-  width: 100%;
+  width: 90%;
   padding: 2%;
   display: block;
   margin: 0 auto;
   background-color: #9E4402;
+}
+
+#loudCover {
+
+clear: both;
+
+}
+
+
+.attribute {
+  text-align: center;
 }
 
 .bio {
